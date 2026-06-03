@@ -4,9 +4,13 @@
 
 **Résout automatiquement les exercices Projet Voltaire par extraction React Fiber — sans IA, sans clé API.**
 
-[![Version](https://img.shields.io/badge/version-2.2.1-blue?style=flat-square)](https://github.com/quelquun667/Projet-Voltaire-Solver/releases/latest)
-[![Manifest V3](https://img.shields.io/badge/Manifest-V3-green?style=flat-square&logo=google-chrome)](https://developer.chrome.com/docs/extensions/mv3/)
-[![License](https://img.shields.io/badge/license-MIT-orange?style=flat-square)](LICENSE)
+[![Dernière version](https://img.shields.io/github/v/release/quelquun667/Projet-Voltaire-Solver?style=for-the-badge&label=version&color=4A90D9)](https://github.com/quelquun667/Projet-Voltaire-Solver/releases/latest)
+[![Release](https://img.shields.io/github/release-date/quelquun667/Projet-Voltaire-Solver?style=for-the-badge&color=27AE60&label=publié)](https://github.com/quelquun667/Projet-Voltaire-Solver/releases)
+[![Étoiles](https://img.shields.io/github/stars/quelquun667/Projet-Voltaire-Solver?style=for-the-badge&color=F1C40F&label=étoiles)](https://github.com/quelquun667/Projet-Voltaire-Solver/stargazers)
+[![Dernier commit](https://img.shields.io/github/last-commit/quelquun667/Projet-Voltaire-Solver?style=for-the-badge&color=9B59B6&label=mis+à+jour)](https://github.com/quelquun667/Projet-Voltaire-Solver/commits/main)
+
+[![Manifest V3](https://img.shields.io/badge/Chrome-Manifest_V3-4285F4?style=flat-square&logo=google-chrome&logoColor=white)](https://developer.chrome.com/docs/extensions/mv3/)
+[![Licence MIT](https://img.shields.io/badge/licence-MIT-orange?style=flat-square)](LICENSE)
 
 [🇬🇧 English version](README.md)
 
@@ -18,18 +22,18 @@
 
 ## ✨ Fonctionnalités
 
-| Fonctionnalité | Description |
-|---|---|
-| 🔍 **Extraction React Fiber** | Lit les réponses directement dans l'état interne React de l'application |
-| ✅ **Exercices "Cliquer sur la faute"** | Détecte et clique sur le mot erroné, ou sur "Il n'y a pas de faute" |
-| 📝 **Exercices "Cliquer sur le mot"** | Identifie et clique sur le bon mot (COD, participe passé, etc.) |
-| 📋 **Exercices "Cliquer / Déposer"** | Place automatiquement les phrases dans les bonnes colonnes (Tableau) |
-| 📊 **Stats par session** | Compteur correct / erreurs / total, remis à zéro à chaque nouvelle session |
-| ⏱️ **Délai aléatoire** | Délai min/max configurable entre chaque réponse pour simuler un comportement humain |
-| 🎲 **Taux d'erreur** | Fait intentionnellement des erreurs à une fréquence configurable (0–50 %) |
-| 🕵️ **Mode Inspecteur** | Cliquez sur n'importe quel élément pour voir son sélecteur (débogage) |
-| 🌗 **Mode Sombre / Clair** | S'adapte à vos préférences |
-| 🔔 **Vérification de mise à jour** | Notification automatique quand une nouvelle version est disponible |
+| | Fonctionnalité | Description |
+|---|---|---|
+| 🔍 | **Extraction React Fiber** | Lit les réponses directement dans l'état interne React de l'application |
+| ✅ | **Cliquer sur la faute** | Détecte et clique sur le mot erroné, ou sur "Il n'y a pas de faute" |
+| 📝 | **Cliquer sur le mot** | Identifie et clique sur le bon mot (COD, participe passé, etc.) |
+| 📋 | **Cliquer / Déposer** | Place automatiquement les phrases dans les bonnes colonnes (Tableau) |
+| 📊 | **Stats par session** | Compteur correct / erreurs / total, remis à zéro à chaque nouvelle session |
+| ⏱️ | **Délai aléatoire** | Délai min/max configurable pour simuler un comportement humain |
+| 🎲 | **Taux d'erreur** | Fait intentionnellement des erreurs à une fréquence configurable (0–50 %) |
+| 🕵️ | **Mode Inspecteur** | Cliquez sur n'importe quel élément pour voir son sélecteur (débogage) |
+| 🌗 | **Mode Sombre / Clair** | S'adapte à vos préférences |
+| 🔔 | **Vérification de mise à jour** | Notification automatique quand une nouvelle version est disponible |
 
 ---
 
@@ -62,6 +66,16 @@ Projet Voltaire est une application React Native Web. L'extension injecte deux s
 - **`content.js`** s'exécute dans le monde isolé de l'extension, lit ces données, associe les mots affichés à l'exercice correspondant, puis simule des événements pointeur natifs pour cliquer la réponse.
 
 Cette approche ne nécessite aucune API externe et fonctionne indépendamment de l'apparence visuelle de la page.
+
+---
+
+## 📈 Historique des étoiles
+
+<div align="center">
+  <a href="https://star-history.com/#quelquun667/Projet-Voltaire-Solver&Date">
+    <img src="https://api.star-history.com/svg?repos=quelquun667/Projet-Voltaire-Solver&type=Date" alt="Historique des étoiles" width="600"/>
+  </a>
+</div>
 
 ---
 
